@@ -1,0 +1,29 @@
+<html>
+<head><title> Feedback Form</title>
+	 <center><H2>Sample Feedback form</H2></center>
+</head>
+<body>
+<form action = "{{url_for('feedback')}}" method="post">
+	 <p><b>Your name :</b> <input type = "text" size=30 name="name"  ><br><br>
+	<b>Your email :</b> <input type = "text" size=40 name="email" ><br><br>
+	<b> Your Phone Number:</b> <input type ="int" size =20 name="phone">
+<p><b>Your Gender :</b> <input type="radio" name="gender" value="Male" > Male
+                        <input type="radio" name="gender" value="Female" required>Female</p>
+<p><label for="course"><b>Select the attended course</b></label>
+   <select id="course" name="course">
+  	<option value="Python">Python</option>
+  	<option value="java">Java</option>
+  	<option value="DataScience">Data Science</option></select></p><br><br>
+ <p><b>Rating for the course :</b>
+    <input type="radio" name="rate" value="1" > 1
+    <input type="radio" name="rate" value="2" >2
+    <input type="radio" name="rate" value="3" >3
+    <input type="radio" name="rate" value="4" >4
+    <input type="radio" name="rate" value="5" >5</p>
+</select>
+<b></b><input type = "submit" value="Submit" />
+</form>
+</body>
+</html>
+
+
