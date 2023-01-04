@@ -1,0 +1,2 @@
+01-04 18:11 werkzeug     WARNING   * Debugger is active!
+01-04 18:11 werkzeug     INFO      * Debugger PIN: 130-827-456
