@@ -1,2 +1,6 @@
-01-04 18:11 werkzeug     WARNING   * Debugger is active!
-01-04 18:11 werkzeug     INFO      * Debugger PIN: 130-827-456
+01-04 22:35 werkzeug     WARNING   * Debugger is active!
+01-04 22:35 werkzeug     INFO      * Debugger PIN: 118-539-074
+01-04 22:35 werkzeug     INFO     127.0.0.1 - - [04/Jan/2023 22:35:40] "GET / HTTP/1.1" 200 -
+01-04 22:35 werkzeug     INFO     127.0.0.1 - - [04/Jan/2023 22:35:43] "GET /feedback HTTP/1.1" 200 -
+01-04 22:35 root         INFO     collected data from feedback form shubh,subha@gmail.com,2345678,Male,Python,3
+01-04 22:35 werkzeug     INFO     127.0.0.1 - - [04/Jan/2023 22:35:52] "POST /feedback HTTP/1.1" 200 -

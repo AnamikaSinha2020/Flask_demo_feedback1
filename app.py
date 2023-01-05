@@ -34,7 +34,7 @@ def feedback():
         feedback_form.append(request.form['course'])
         feedback_form.append(request.form['rate'])
        # print(feedback_form)
-        logging.info('collected data from feedback form ' + feedback_form)
+        logging.info('collected data from feedback form ' + ",".join(feedback_form))
         write_feedback_data(feedback_form)
         get_feedback_data()
 
@@ -54,7 +54,7 @@ def write_feedback_data(feedback_form):
 
     #  conn = db_connect(FEEDBACK.db)
     # cur = conn.cursor()
-    conn = sqlite3.connect('C:\DS\project\Flask_demo\FEEDBACK.db')
+    conn = sqlite3.connect('FEEDBACK.db')
     cur = conn.cursor()
     # logging.info('Connected to ' + db_name)
     sql = """insert into feedback_data(
